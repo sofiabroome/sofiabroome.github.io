@@ -1,23 +1,23 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Sofia</strong> Broomé
+description: <a href="http://www.kth.se/rpl">KTH Royal Institute of Technology. Division of Robotics, Perception and Learning.</a> 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: sbroome_webb.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p> sbroome [at] kth.se </p>
+    <p>Room 3338</p>
+    <p>Teknikringen 33</p>
+    <p>RPL/EECS KTH, Stockholm, Sweden</p>
 
 news: true
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a PhD student at the Robotics, perception & learning lab (RPL) at KTH Royal Institute of Technology in Stockholm since August 2017. My advisor is [Prof. Hedvig Kjellström](http://csc.kth.se/~hedvig).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research project revolves around trying to detect horses' pain expressions using computer vision. I work mostly with video data and have found that the temporal unfolding of these videos is decisive for reliable pain diagnostics; hence I'm interested in spatiotemporal features and action recognition. Currently I'm looking into the interpretability of deep action recognition models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
