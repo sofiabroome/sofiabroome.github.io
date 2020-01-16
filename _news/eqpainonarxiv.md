@@ -1,9 +1,7 @@
 ---
 layout: post
 title: "First work on equine pain recognition posted on arXiv"
-date: 2015-11-07 16:11:00-0400
-header:
-  teaser: "/assets/img/CLSTM2.png"
+date: 2019-01-07
 inline: false
 ---
 
