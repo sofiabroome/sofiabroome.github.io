@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: 
 ---
 <h3 class="year">{{2020}}</h3>
