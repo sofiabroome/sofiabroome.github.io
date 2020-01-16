@@ -2,7 +2,7 @@
 layout: about
 permalink: /
 title: <strong>Sofia</strong> Broomé
-description: <a href="http://www.kth.se/rpl">KTH Royal Institute of Technology. Division of Robotics, Perception and Learning.</a> 
+description: <a href="http://www.kth.se/rpl">KTH Royal Institute of Technology. Division of Robotics, Perception and Learning (RPL).</a> 
 
 profile:
   align: right
