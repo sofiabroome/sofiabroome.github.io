@@ -25,7 +25,7 @@ DD2423 Image Analysis and Computer Vision, assistant
 DD2424 Deep Learning in Data Science, assistant
 
 <h3 class="year">{{2017}}</h3>
-DD2380 Artificial Intelligence
+DD2380 Artificial Intelligence, assistant
 
 DD2421 Machine Learning, assistant
 
