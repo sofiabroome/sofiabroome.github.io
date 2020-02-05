@@ -6,7 +6,7 @@ description: <a href="http://www.kth.se/rpl">KTH Royal Institute of Technology. 
 
 profile:
   align: right
-  image: sbroome_webb.jpg
+  image: DSC_3064_small.JPG
   address: >
     <p> sbroome [at] kth.se </p>
     <p>Room 3338</p>
