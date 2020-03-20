@@ -43,8 +43,8 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Blog
-blog_description: 
+blog_name: al-folio
+blog_description: a simple whitespace theme for academics
 
 # Pagination
 paginate: 4
