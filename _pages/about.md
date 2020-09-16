@@ -29,7 +29,7 @@ Learning to detect pain in horses automatically is important because it is diffi
 
 #### Student representation
 
-As of December 2019, I'm vice-chair of the PhD student council of the EECS school, and, as of March 2020, member of the PhD Chapter board, representing KTH doctoral students centrally, with the role of workgroups manager. As part of my work in the PhD chapter board, I'm also part of the Language committee (Språkkommittén) and Ethics committee (Etikutskottet) at KTH.  
+I'm vice-chair of the PhD student council of the EECS school, and member of the PhD Chapter board, representing KTH doctoral students centrally. As part of my work in the PhD chapter board, I'm also part of the Language committee (Språkkommittén) and Ethics committee (Etikutskottet) at KTH.  
 
 
 
