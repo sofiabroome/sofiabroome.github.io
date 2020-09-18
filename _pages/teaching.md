@@ -7,6 +7,7 @@ description:
 <h3 class="year">{{2020}}</h3>
 
 DD2380 Artificial Intelligence, assistant
+
 DD2424 Deep Learning in Data Science, assistant
 
 <h3 class="year">{{2019}}</h3>
