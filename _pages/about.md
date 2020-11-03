@@ -27,9 +27,9 @@ My research project revolves around trying to detect horses' pain expressions us
 Learning to detect pain in horses automatically is important because it is difficult for humans, even for veterinarian experts in equine pain. Horses are prey animals and tend to hide their pain, not wanting to show when they are vulnerable. Currently, many horses in Sweden are euthanized prematurely due to disorders which are not really lethal, such as problems with joints, because we detect the conditions too late for treatment.   
 
 
-#### Student representation
+##### Student representation
 
-I'm vice-chair of the PhD student council of the EECS school, and member of the PhD Chapter board, representing KTH doctoral students centrally. As part of my work in the PhD chapter board, I'm also part of the Language committee (Språkkommittén) and Ethics committee (Etikutskottet) at KTH.  
+I'm member of the PhD Chapter board, representing KTH doctoral students centrally, and vice-chair of the PhD student council of the EECS school.
 
 
 
