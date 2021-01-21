@@ -4,16 +4,28 @@ permalink: /teaching/
 title: teaching
 description: 
 ---
+<h3 class="year">{{2021}}</h3>
+
+MSc thesis supervision of Boyu Li
+
+MSc thesis supervision of Michaela Söderström
+
 <h3 class="year">{{2020}}</h3>
 
 DD2380 Artificial Intelligence, assistant
 
 DD2424 Deep Learning in Data Science, assistant
 
+MSc thesis supervision of Zhenghong Li
+
 <h3 class="year">{{2019}}</h3>
 DD2380 Artificial Intelligence, assistant
 
 DD2424 Deep Learning in Data Science, assistant
+
+MSc thesis supervision of Mukund Seethamraju
+
+MSc thesis supervision of Ci Li
 
 <h3 class="year">{{2018}}</h3>
 DD2380 Artificial Intelligence, assistant
