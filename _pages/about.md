@@ -36,3 +36,8 @@ I'm member of the PhD Chapter board, representing KTH doctoral students centrall
 #### Background
 
 Before I started my PhD, I was in the engineering physics program at KTH, with my MSc in machine learning. My BSc thesis from 2014 was on the use of partial differential equations in climate modeling. Even longer ago I lived for two years in Paris, waitressed, and read David Foster Wallace books that made me want to not _not_ study maths.
+
+
+#### Reviewing
+
+I was a reviewer for ECCV2020 and CVPR2021. Currently reviewing for ICCV2021. Assistant reviewer for RSS2020.
