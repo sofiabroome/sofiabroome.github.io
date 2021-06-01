@@ -5,6 +5,9 @@ title: teaching
 description: 
 ---
 <h3 class="year">{{2021}}</h3>
+DD2380 Artificial Intelligence, assistant
+
+DD2424 Deep Learning in Data Science, assistant
 
 MSc thesis supervision of Boyu Li
 
