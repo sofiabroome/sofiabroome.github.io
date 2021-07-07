@@ -29,7 +29,7 @@ Learning to detect pain in horses automatically is important because it is diffi
 
 #### Student representation
 
-I'm member of the PhD Chapter board, representing KTH doctoral students centrally, for example in the Ethics committee of KTH, and member of the PhD student council of the EECS school.
+Between March 2020 and June 2021, I worked 20% as an elected member of the PhD Chapter board, representing KTH doctoral students centrally, for example in the Ethics committee of KTH. I was also part of the local council of the EECS school. In the board, I worked with advocacy questions for doctoral students.
 
 
 
@@ -40,4 +40,4 @@ Before I started my PhD, I was in the engineering physics program at KTH, with m
 
 #### Reviewing
 
-I was a reviewer for ECCV2020 and CVPR2021. Currently reviewing for ICCV2021. Assistant reviewer for RSS2020.
+I was a reviewer for ECCV2020, CVPR2021 and ICCV2021. Assistant reviewer for RSS2020. I will review for ICLR2022.
