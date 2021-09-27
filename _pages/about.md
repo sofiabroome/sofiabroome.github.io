@@ -19,7 +19,7 @@ social: true
 
 I'm a PhD student in machine learning at the division of Robotics, perception & learning at KTH Royal Institute of Technology in Stockholm since August 2017. My advisor is [Prof. Hedvig Kjellström](https://www.kth.se/profile/hedvig).
 
-My research project revolves around trying to detect horses' pain expressions using computer vision. I work mostly with video data and have found that the temporal unfolding of these videos is decisive for reliable pain diagnostics; hence I'm interested in spatiotemporal features and action recognition. Currently I'm looking into the interpretability of deep action recognition models.  
+My research project revolves around trying to detect horses' pain expressions using computer vision. I work mostly with video data and have found that the temporal unfolding of these videos is decisive for reliable pain diagnostics; hence I'm interested in spatiotemporal features and action recognition as well.
 
 
 #### Why recognize pain in horses?
@@ -40,4 +40,4 @@ Before I started my PhD, I was in the engineering physics program at KTH, with m
 
 #### Reviewing
 
-I was a reviewer for ECCV2020, CVPR2021 and ICCV2021. Assistant reviewer for RSS2020. I will review for ICLR2022.
+I was a reviewer for ECCV2020, CVPR2021, ICCV2021 and WACV2022. Assistant reviewer for RSS2020. I will review for ICLR2022.
