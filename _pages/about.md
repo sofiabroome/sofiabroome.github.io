@@ -40,4 +40,4 @@ Before I started my PhD, I was in the engineering physics program at KTH, with m
 
 #### Reviewing
 
-I was a reviewer for ECCV2020, CVPR2021, ICCV2021 and WACV2022. Assistant reviewer for RSS2020. I will review for ICLR2022.
+I was a reviewer for ECCV2020, CVPR2021, ICCV2021 and WACV2022. Assistant reviewer for RSS2020. Will review for ICLR2022 and CVPR2022.
