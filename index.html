@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <link
+    rel="shortcut icon"
+    sizes="16x16 32x32 64x64"
+    href="./pictures/200px_SBROOME.jpg"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css" media="all">
+      body {font-family: 'Droid Sans', helvetica,Arial,sans-serif;}
+      a:link, a:visited, a:active {text-decoration:none}
+      div.container{width:60%; margin:2%; line-height:140%;}
+      div.right{float:right;width:200px; margin:1em; padding:1em;}
+      div.content{margin-left:4%; padding:1em;}
+      div.foo p {margin-bottom:0.0em; margin-top:0.0em;}
+      div.scrollable { height: 40px; overflow-y: auto;}
+      #holder {
+          min-width: 700px;
+          width: 100%;
+      }
+
+      div.image {
+          width: 50%;
+          position: relative;
+      }
+    </style>
+
+    <title>Sofia Broomé</title> 
+    <meta name="description" content="Academic page of Sofia Broomé. Research on automatic pain recognition in horses and empirical properties of deep video models.">
+    <meta name="keywords" content="Deep learning, computer vision, computer vision for animals">
+    <meta name="resource-type" content="document">
+    <meta name="distribution" content="global">
+    <meta http-equiv="Content-Style-Type" content="text/css">
+
+    <script type="text/javascript" async="" src="www.google-analytics.com/ga.js">
+    </script>
+    <script type="text/javascript">
+        function trackOutboundLink(link, category, action) { 
+            try { 
+            _gaq.push(['_trackEvent', category , action]); 
+            } catch(err){}
+        }
+    </script>
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8635368-2']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <br>
+    <div class="container">
+      <div class="content">
+        <h1 style="text-align: left;">Sofia Broomé</h1>
+
+        <b><font size="4">
+          <a href="#preprints"      onClick="_gaq.push(['_trackEvent', 'withinpage', 'preprints', 'textlink']);">Preprints</a>
+          | <a href="#publications" onclick="_gaq.push(['_trackEvent', 'withinpage', 'publications', 'textlink']);">Publications</a>
+          | <a href="#about" onclick="_gaq.push(['_trackEvent', 'withinpage', 'about', 'textlink']);">About</a>
+          </font>
+        </b>
+
+        <br>
+        <br>
+
+                  <H2><a id="recent">Recent</a></H2>
+          <table border="0" cellspacing="10" cellpadding="2">
+            <tbody>
+                 <tr>
+                  <td valign="top">
+                    <b>Recur, Attend or Convolve? Frame Dependency Modeling Matters for Cross-Domain Robustness in Action Recognition</b>
+                    <br>
+                    <br>
+                    <p>
+                    <em>Abstract:</em> Most action recognition models today are highly parameterized, and evaluated on datasets with predominantly spatially distinct classes. Previous results for single images have shown that 2D Convolutional Neural Networks (CNNs) tend to be biased toward texture rather than shape for various computer vision tasks (Geirhos et al., ICLR 2019), reducing generalization. Taken together, this raises suspicion that large video models learn spurious correlations rather than to track relevant shapes over time and infer generalizable semantics from their movement. A natural way to avoid parameter explosion when learning visual patterns over time is to make use of recurrence across the time-axis. In this article, we empirically study the cross-domain robustness for recurrent, attention-based and convolutional video models, respectively, to investigate whether this robustness is influenced by the frame dependency modeling. Our novel Temporal Shape dataset is proposed as a light-weight dataset to assess the ability to generalize across temporal shapes which are not revealed from single frames. We find that when controlling for performance and layer structure, recurrent models show better out-of-domain generalization ability on the Temporal Shape dataset than convolution- and attention-based models. Moreover, our experiments indicate that convolution- and attention-based models exhibit more texture bias on Diving48 than recurrent models. 
+                    </p>
+                    <br>
+                    <br>
+                    <div id="holder">
+                      <image class="image" width="200px" src="./pictures/2dot_1240.gif">
+                      <image class="image" width="200px" src="./pictures/5dot_1700.gif">
+                      <image class="image" width="200px" src="./pictures/mnist_140.gif">
+                      <image class="image" width="200px" src="./pictures/mnist_1500.gif">
+                    </div>
+                    <br>
+                      <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                      Ernest Pokropek,
+                      Boyu Li,
+                      <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>
+                    <br>
+                    <em>arXiv</em>, 2021.<br>
+                      <a href="https://arxiv.org/abs/2112.12175" onclick="_gaq.push(['_trackEvent', 'downloads', 'rac', 'pdf' ]);">pdf</a>
+                      | <a href="https://github.com/sofiabroome/cross-dataset-generalization" onclick="_gaq.push(['_trackEvent', 'downloads', 'rac', 'code' ]);">code</a>
+                    <br>
+                  </td>
+                </tr>
+
+            </tbody>
+          </table>  
+          <br>
+          <br>
+
+          <H2><a id="about">About</a></H2>
+      <div class="right"><img alt="" width="250px" src="./pictures/DSC_3064_small.JPG"></div>
+        <p>I'm a PhD student in machine learning at the division of Robotics, Perception & Learning (RPL) at KTH Royal Institute of Technology in Stockholm since August 2017. My advisor is <a href="https://www.kth.se/profile/hedvig">Prof. Hedvig Kjellström</a>. I'm also co-advised by <a href="https://www.slu.se/cv/pia-haubro/"> Prof. Pia Haubro Andersen</a>.</p>
+
+        <p>My research project revolves around trying to detect horses' pain expressions using computer vision. I work mostly with video data and have found that the temporal unfolding of these videos is decisive for reliable pain diagnostics; hence I'm interested in spatiotemporal features and action recognition as well.</p>
+
+        
+        <h3>Why recognize pain in horses?</h3>
+
+        <p>Learning to detect pain in horses automatically is important because it is difficult for humans, even for veterinarian experts in equine pain. Horses are prey animals and tend to hide their pain, not wanting to show when they are vulnerable. Currently, many horses in Sweden are euthanized prematurely due to disorders which are not really lethal, such as problems with joints, because we detect the conditions too late for treatment.</p>
+
+        <b>Student representation</b>
+        <br>
+
+        Between March 2020 and June 2021, I worked 20% as an elected member of the PhD Chapter board, representing KTH doctoral students centrally, for example in the Ethics committee of KTH. I was also part of the local council of the EECS school. In the board, I worked with advocacy questions for doctoral students.
+        <br>
+        <br>
+        <b>Background</b>
+        <br>
+
+        Before I started my PhD, I was in the engineering physics program at KTH, with my MSc in machine learning. My BSc thesis from 2014 was on the use of partial differential equations in climate modeling. Even longer ago I lived for two years in Paris, waitressed, and read David Foster Wallace books that made me want to not <i>not</i> study maths.
+
+         <br>
+         <br> 
+        <b>Reviewing</b>
+<br>
+        I was a reviewer for ECCV2020, CVPR2021, ICCV2021, WACV2022, ICLR2022 and CVPR2022. Assistant reviewer for RSS2020.
+<!--
+        <p>
+          <a href="./cv/CV_Hyunjik_Kim.pdf" onclick="_gaq.push(['_trackEvent', 'downloads', 'resume', 'pdf']);">Curriculum Vitae</a> (last updated: July 2020)
+        </p> -->
+        <p>
+          <a href="https://scholar.google.se/citations?user=WW0LooUAAAAJ&hl=en">Google scholar page</a>
+          <br>
+          <a href="https://twitter.com/sofiabroome">Twitter</a>
+                    <br>
+          <a href="https://github.com/sofiabroome">Github</a>
+        </p>
+          
+        <p> 
+        E-mail: sbroome [at] kth.se
+        </p>
+        <!--
+        <H2><a id="news">News</a></H2>
+        <div class="scrollable">
+            <tr>
+                <td class="newsdate">
+                    February 2013
+                </td>
+                <td class="news">
+                    News item 1 :tada:
+                </td>
+            </tr>
+            <br> 
+            <tr>
+                <td class="newsdate">
+                    January 2013
+                </td>
+                <td class="news">
+                    News items 2
+                </td>
+            </tr>
+            <tr>
+                <td class="newsdate">
+                    February 2013
+                </td>
+                <td class="news">
+                    News item 1
+                </td>
+            </tr>
+            <br> 
+            <tr>
+                <td class="newsdate">
+                    January 2013
+                </td>
+                <td class="news">
+                    News items 2
+                </td>
+            </tr>
+        </div> 
+        -->
+
+        <div class="foo">
+          <!-- Recent -->
+            
+
+
+          <!-- Publications -->
+            
+          <H2><a id="publications">Publications</a></H2>
+          <table border="0" cellspacing="10" cellpadding="2">
+            <tbody>
+             <tr>
+                <td valign="top">
+                  <b>Sharing Pain: Using Pain Domain Transfer for Video Recognition of Low Grade Orthopedic Pain in Horse</b>
+                  <p>
+                  <br>
+                  <em>Abstract:</em> Orthopedic disorders are common among horses, often leading to euthanasia, which often could have been avoided with earlier detection. These conditions often create varying degrees of subtle long-term pain. It is challenging to train a visual pain recognition method with video data depicting such pain, since the resulting pain behavior also is subtle, sparsely appearing, and varying, making it challenging for even an expert human labeller to provide accurate ground-truth for the data. We show that a model trained solely on a dataset of horses with acute experimental pain (where labeling is less ambiguous) can aid recognition of the more subtle displays of orthopedic pain. Moreover, we present a human expert baseline for the problem, as well as an extensive empirical study of various domain transfer methods and of what is detected by the pain recognition method trained on clean experimental pain in the orthopedic dataset. Finally, this is accompanied with a discussion around the challenges posed by real-world animal behavior datasets and how best practices can be established for similar fine-grained action recognition tasks.
+                  </p>
+                                    <br>
+                  <br>
+                  <div class="left"><img alt="" width="500px" src="./pictures/sharingpain_concept.png"></div>
+                  <br>
+                  <br>
+                    <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                    <a href="https://www.researchgate.net/profile/Katrina-Ask" onclick="trackOutboundLink(this, 'outbound', 'Katrina');">Katrina Ask</a>,
+                    <a href="https://menorashid.github.io" onclick="trackOutboundLink(this, 'outbound', 'Maheen');">Maheen Rashid</a>,
+                    <a href="https://www.slu.se/cv/pia-haubro/" onclick="trackOutboundLink(this, 'outbound', 'Pia');">Pia Haubro Andersen</a>,
+                    <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>
+                  <br>
+                  <em><b>PLOS ONE 2022. To appear.</b></em> <br>
+                    <a href="https://arxiv.org/abs/2105.10313" onclick="_gaq.push(['_trackEvent', 'downloads', 'sp', 'pdf' ]);">pdf</a>
+                    | <a href="https://github.com/sofiabroome/painface-recognition" onclick="_gaq.push(['_trackEvent', 'downloads', 'sp_code', 'code' ]);">code</a>
+                  <br>
+                  <br>
+                </td>
+              </tr>
+
+                           <tr>
+                <td valign="top">
+                  <b>Equine Pain Behavior Classification via Self-Supervised Disentangled Pose Representation</b>
+                  <p>
+                  <br>
+                  <em>Abstract:</em> Timely detection of horse pain is important for equine welfare. Horses express pain through their facial and body behavior, but may hide signs of pain from unfamiliar human observers. In addition, collecting visual data with detailed annotation of horse behavior and pain state is both cumbersome and not scalable. Consequently, a pragmatic equine pain classification system would use video of the unobserved horse and weak labels. This paper proposes such a method for equine pain classification by using multi-view surveillance video footage of unobserved horses with induced orthopaedic pain, with temporally sparse video level pain labels. To ensure that pain is learned from horse body language alone, we first train a self-supervised generative model to disentangle horse pose from its appearance and background before using the disentangled horse pose latent representation for pain classification. To make best use of the pain labels, we develop a novel loss that formulates pain classification as a multi-instance learning problem. Our method achieves pain classification accuracy better than human expert performance with 60% accuracy. The learned latent horse pose representation is shown to be viewpoint covariant, and disentangled from horse appearance. Qualitative analysis of pain classified segments shows correspondence between the pain symptoms identified by our model, and equine pain scales used in veterinary practice.
+                  </p>
+                                    <br>
+                  <div class="left"><img alt="" width="700px" src="./pictures/egp_concept.png"></div>
+                  <br>
+                    <a href="https://menorashid.github.io" onclick="trackOutboundLink(this, 'outbound', 'Maheen');">Maheen Rashid</a>,
+                    <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                    <a href="https://www.researchgate.net/profile/Katrina-Ask" onclick="trackOutboundLink(this, 'outbound', 'Katrina');">Katrina Ask</a>,
+                    <a href="https://www.slu.se/en/ew-cv/elin-hernlund/" onclick="trackOutboundLink(this, 'outbound', 'Elin');">Elin Hernlund</a>,
+                    <a href="https://www.slu.se/cv/pia-haubro/" onclick="trackOutboundLink(this, 'outbound', 'Pia');">Pia Haubro Andersen</a>,
+                    <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>,
+                    <a href="https://pages.cs.wisc.edu/~yongjaelee/" onclick="trackOutboundLink(this, 'outbound', 'Yong Jae Lee');">Yong Jae Lee</a>,
+                  <br>
+                  <em><b>WACV 2022.</b></em> <br>
+                    <a href="https://arxiv.org/abs/2108.13258" onclick="_gaq.push(['_trackEvent', 'downloads', 'latentpose', 'pdf' ]);">pdf</a>
+                    | <a href="https://github.com/menorashid/gross_pain" onclick="_gaq.push(['_trackEvent', 'downloads', 'latentpose_code', 'code' ]);">code</a>
+
+                </td>
+              </tr> 
+
+                                         <tr>
+                <td valign="top">
+                  <br>
+                  <br>
+                  <b>hSMAL: Detailed Horse Shape and Pose Reconstruction for Motion Pattern Recognition</b>
+                  <p>
+                  <br>
+                  <em>Abstract:</em> In this paper we present our preliminary work on model-based behavioral analysis of horse motion. Our approach is based on the SMAL model, a 3D articulated statistical model of animal shape. We define a novel SMAL model for horses based on a new template, skeleton and shape space learned from 37 horse toys. We test the accuracy of our hSMAL model in reconstructing a horse from 3D mocap data and images. We apply the hSMAL model to the problem of lameness detection from video, where we fit the model to images to recover 3D pose and train an ST-GCN network on pose data. A comparison with the same network trained on mocap points illustrates the benefit of our approach.
+                  </p>
+                                    <br>
+                  <div class="left"><img alt="" width="700px" src="./pictures/hsmal.png"></div>
+                  <br>
+                    <a href="https://www.kth.se/profile/cil?l=en" onclick="trackOutboundLink(this, 'outbound', 'Nima');">Ci Li</a>,
+                    <a href="https://nghorbani.github.io" onclick="trackOutboundLink(this, 'outbound', 'Nima');">Nima Ghorbani</a>,
+                    <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                    <a href="https://menorashid.github.io" onclick="trackOutboundLink(this, 'outbound', 'Maheen');">Maheen Rashid</a>,
+                    <a href="https://ps.is.mpg.de/~black" onclick="trackOutboundLink(this, 'outbound', 'Michael');">Michael J. Black</a>,
+                    <a href="https://www.slu.se/en/ew-cv/elin-hernlund/" onclick="trackOutboundLink(this, 'outbound', 'Elin');">Elin Hernlund</a>,
+                    <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>,
+                    <a href="https://imati.cnr.it/mypage.php?idk=PG-2" onclick="trackOutboundLink(this, 'outbound', 'Silvia');">Silvia Zuffi</a>
+                  <br>
+                  <em><b>CV4Animals, CVPR Workshop 2021.</b></em> <br>
+                    <a href="https://arxiv.org/pdf/2106.10102.pdf" onclick="_gaq.push(['_trackEvent', 'downloads', 'hsmal', 'pdf' ]);">pdf</a>
+                  <br>
+                </td>
+              </tr> 
+
+                              <tr>
+                  <td valign="top">
+                    <br>
+                    <br>
+                    <b>Interpreting video features: a comparison of 3D convolutional networks and convolutional LSTM networks</b>
+                    <br>
+                    <br>
+                    <p>
+                    <em>Abstract:</em>
+                    A number of techniques for interpretability have been presented for deep learning in computer vision, typically with the goal of understanding what the networks have based their classification on. However, interpretability for deep video architectures is still in its infancy and we do not yet have a clear concept of how to decode spatiotemporal features. In this paper, we present a study comparing how 3D convolutional networks and convolutional LSTM networks learn features across temporally dependent frames. This is the first comparison of two video models that both convolve to learn spatial features but have principally different methods of modeling time. Additionally, we extend the concept of meaningful perturbation introduced by Fong & Vedaldi (ICCV 2017) to the temporal dimension, to identify the temporal part of a sequence most meaningful to the network for a classification decision. Our findings indicate that the 3D convolutional model concentrates on shorter events in the input sequence, and places its spatial focus on fewer, contiguous areas.
+                    </p>
+                    <br>
+                                        <div id="holder">
+                      <image class="image" width="400px" src="./pictures/28170_i3d.gif">
+                      <image class="image" width="400px" src="./pictures/28170_clstm.gif">
+                    </div>
+                    <br>
+                      <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                      Xiaoyu Lu,
+                      <a href="https://www.kth.se/profile/manttari" onclick="trackOutboundLink(this, 'outbound', 'Joonatan');">Joonatan Mänttäri</a>,
+                      <a href="https://www.kth.se/profile/johnf" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">John Folkesson</a>,
+                      <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>
+                    <br>
+                    <em><b>ACCV 2020.</b></em><br>
+                      <a href="https://openaccess.thecvf.com/content/ACCV2020/papers/Manttari_Interpreting_Video_Features_A_Comparison_of_3D_Convolutional_Networks_and_ACCV_2020_paper.pdf" onclick="_gaq.push(['_trackEvent', 'downloads', 'ivf', 'pdf' ]);">pdf</a>
+                      | <a href="https://interpreting-video-features.github.io" onclick="_gaq.push(['_trackEvent', 'downloads', 'ivf', 'project' ]);">project</a> |
+                      <a href="https://github.com/interpreting-video-features/interpreting-video-features" onclick="_gaq.push(['_trackEvent', 'downloads', 'ivf', 'code' ]);">code</a>
+                    <br>
+                  </td>
+                </tr>
+
+                <tr>
+                <td valign="top">
+                  <br>
+                  <br>
+                  <b>Dynamics are Important for the Recognition of Equine Pain in Video</b>
+                  <p>
+                  <br>
+                  <em>Abstract:</em>  A prerequisite to successfully alleviate pain in animals is to recognize it, which is a great challenge in non-verbal species. Furthermore, prey animals such as horses tend to hide their pain. In this study, we propose a deep recurrent two-stream architecture for the task of distinguishing pain from non-pain in videos of horses. Different models are evaluated on a unique dataset showing horses under controlled trials with moderate pain induction, which has been presented in earlier work. Sequential models are experimentally compared to single-frame models, showing the importance of the temporal dimension of the data, and are benchmarked against a veterinary expert classification of the data. We additionally perform baseline comparisons with generalized versions of state-of-the-art human pain recognition methods. While equine pain detection in machine learning is a novel field, our results surpass veterinary expert performance and outperform pain detection results reported for other larger non-human species.
+                  </p>
+                                    <br>
+                  <br>
+                  <div class="left"><img alt="" width="900px" src="./pictures/CLSTM2.png"></div>
+                  <br>
+                  <br>
+                    <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                    <a href="https://www.researchgate.net/profile/Karina-Gleerup" onclick="trackOutboundLink(this, 'outbound', 'Karina');">Karina Bech Gleerup</a>,
+                    <a href="https://www.slu.se/cv/pia-haubro/" onclick="trackOutboundLink(this, 'outbound', 'Pia');">Pia Haubro Andersen</a>,
+                    <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>
+                  <br>
+                  <em><b>CVPR 2019.</b></em> <br>
+                    <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Broome_Dynamics_Are_Important_for_the_Recognition_of_Equine_Pain_in_CVPR_2019_paper.pdf" onclick="_gaq.push(['_trackEvent', 'downloads', 'dyn', 'pdf' ]);">pdf</a>
+                    | <a href="https://github.com/sofiabroome/painface-recognition" onclick="_gaq.push(['_trackEvent', 'downloads', 'dyn_code', 'code' ]);">code</a>
+                  <br>
+                  <br>
+                </td>
+              </tr>
+              
+                
+              <tr>
+                <td height="10px"></td>
+              </tr>
+            </tbody>
+          </table>
+            
+          <!-- Preprints -->
+          <H2><a id="preprints">Preprints</a></H2>
+            <table border="0" cellspacing="10" cellpadding="2">
+              <tbody>
+              <tr>
+                <td valign="top">
+                  <b>Automated Detection of Equine Facial Action Units</b>
+                  <p>
+                  <br>
+                  <em>Abstract:</em> The recently developed Equine Facial Action Coding System (EquiFACS) provides a precise and exhaustive, but laborious, manual labelling method of facial action units of the horse. To automate parts of this process, we propose a Deep Learning-based method to detect EquiFACS units automatically from images. We use a cascade framework; we firstly train several object detectors to detect the predefined Region-of-Interest (ROI), and secondly apply binary classifiers for each action unit in related regions. We experiment with both regular CNNs and a more tailored model transferred from human facial action unit recognition. Promising initial results are presented for nine action units in the eye and lower face regions. Code for the project is publicly available.
+                  </p>
+                                    <br>
+                  <div class="left"><img alt="" width="700px" src="./pictures/zhenghong_gradcam.png"></div>
+                  <br>
+                    Zhenghong Li,
+                    <a href="./index.html" onclick="trackOutboundLink(this, 'outbound', 'Sofia');">Sofia Broomé</a>,
+                    <a href="https://www.slu.se/cv/pia-haubro/" onclick="trackOutboundLink(this, 'outbound', 'Pia');">Pia Haubro Andersen</a>,
+                    <a href="https://www.kth.se/profile/hedvig" onclick="trackOutboundLink(this, 'outbound', 'Hedvig Kjellström');">Hedvig Kjellström</a>
+                  <br>
+                  <em>arXiv 2021</em> <br>
+                    <a href="https://arxiv.org/abs/2102.08983" onclick="_gaq.push(['_trackEvent', 'downloads', 'facs', 'pdf' ]);">pdf</a>
+                    | <a href="https://github.com/ZhenghLi/Automated-Detection-of-Equine-Facial-Action-Units" onclick="_gaq.push(['_trackEvent', 'downloads', 'facs_code', 'code' ]);">code</a>
+                  <br>
+                </td>
+              </tr> 
+
+                <tr>
+                  <td height="10px"></td>
+                </tr>
+              </tbody>
+            </table>
+
+            
+            
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
