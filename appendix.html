@@ -7,7 +7,7 @@
     href="./pictures/200px_SBROOME.jpg"
     />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <style type="text/css" media="all">
+    <style type="text/css">
       body {font-family: 'Droid Sans', helvetica,Arial,sans-serif;}
       a:link, a:visited, a:active {text-decoration:none}
       div.container{width:60%; margin:2%; line-height:140%;}
@@ -15,13 +15,23 @@
       div.content{margin-left:4%; padding:1em;}
       div.foo p {margin-bottom:0.0em; margin-top:0.0em;}
       div.scrollable { height: 40px; overflow-y: auto;}
+    
       #holder {
-          min-width: 700px;
-          width: 100%;
+          // min-width: 700px;
+          // width: 100%;
+          background: #DFDFDF;
+          text-align: center;
+      }
+
+      .testing {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        text-align: center;
       }
 
       div.image {
-          width: 50%;
+          // width: 40px;
           position: relative;
       }
     </style>
@@ -89,20 +99,59 @@
           </table>  
           <br>
           <br>
+        <div class="ch3">
+          <!-- Chapter 3 -->
 
           <H2><a id="chapter3">Chapter 3</a></H2>
 
-        <div class="foo">
-          <!-- Recent -->
+            <p>This part of the appendix contains the 25 clips from Section 3.3 in the thesis, which were rated by the human experts. For each clip, RGB (left), optical flow (middle), and Grad-CAM saliency maps (right) for the ConvLSTM-2-PF instance are shown.</p>
+                    
+                    <!--- <div id="holder">
+                       <div style="background:red;"> --->
+                    <!---
+                      <div>
+                      <img class="image" width="380px" src="./appendix/test_clip_1.gif">
+                      <p>Clip 1</p>
+                      </div>
+                      <div>
+                      <img class="image" width="380px" src="./appendix/test_clip_2.gif">
+                      <p>Clip 2</p>
+                      </div>
+                    </div> --->
+                     <div class="testing"> 
+                      <div>
+                      <img class="image" width="380px" src="./appendix/test_clip_1.gif">
+                      <p>Clip 1</p>
+                      </div>
+                      <div>
+                      <img class="image" width="380px" src="./appendix/test_clip_2.gif">
+                      <p>Clip 2</p>
+                      </div>
+                    </div>
+
+        </div>
+
+        <div class="ch5">
+          <!-- Chapter 5 -->
             
           <H2><a id="chapter5">Chapter 5</a></H2>
 
-                    <div id="holder">
-                      <image class="image" width="180px" src="./pictures/2dot_1240.gif">
-                      <image class="image" width="180px" src="./pictures/5dot_1700.gif">
-                      <image class="image" width="180px" src="./pictures/mnist_140.gif">
-                      <image class="image" width="180px" src="./pictures/mnist_1500.gif">
-                    </div>
+                <p>Figure 5.1 </p>
+
+                <div id="holder">
+                  <img class="image" width="180px" src="./pictures/2dot_1240.gif">
+                  <img class="image" width="180px" src="./pictures/5dot_1700.gif">
+                  <img class="image" width="180px" src="./pictures/mnist_140.gif">
+                  <img class="image" width="180px" src="./pictures/mnist_1500.gif">
+                </div>
+
+                <p>Figure 5.2 </p>
+
+                <div id="holder">
+                  <img class="image" width="250px" src="./appendix/8qRmKunCjtY_00016_S1.mp4">
+                  <img class="image" width="250px" src="./appendix/8qRmKunCjtY_00016_S2.mp4">
+                  <img class="image" width="250px" src="./appendix/8qRmKunCjtY_00016_T.mp4">
+                </div>
 
             
             
